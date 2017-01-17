@@ -1,0 +1,314 @@
+* {
+  box-sizing: border-box;
+}
+
+#app-container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: "Libre Franklin", "sans-serif";
+}
+
+.strider-nav {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #f55e0f;
+  width: 100%;
+}
+
+.strider-nav img {
+    height: 30px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.your-place {
+  color: #29BBAF;
+  border-style: solid;
+  border-width: thin;
+  border-spacing: 6px;
+  font-weight: bold;
+}
+.strider-nav button {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  background-color: #f55e0f;
+  border: none;
+  float: right;
+  padding-right: 20px;
+  padding-top: 18px;
+}
+
+.column-containers {
+  font-size: 0;
+}
+
+.splash {
+  background-image: url('../images/hero-splash-roommates-fun.jpg');
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 300px;
+  max-width: 100%;
+}
+
+.insider {
+  color: #fff;
+  text-align: center;
+  background-color: rgba(51, 51, 51, .70);
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.insider h1 {
+  font-weight: normal;
+  margin-bottom: -6px;
+}
+
+.insider p {
+  font-size: 14px;
+}
+
+.search {
+  padding-top: 10px;
+}
+
+.search button {
+  background-color: #29BBAF;
+  color: #fff;
+  text-decoration: none;
+  border-style: none;
+  height: 40px;
+  width: 100px;
+  margin-left: -6px;
+  font-size: 12px;
+}
+
+.search input {
+  height: 40px;
+  width: 300px;
+}
+
+.heart-cont i {
+   font-size: 16px;
+    color: white;
+}
+
+.cities {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  font-size: medium;
+  padding: 12px;
+}
+
+.cities img {
+  width: 70%;
+  display: block;
+  margin-left: 40px;
+}
+
+.cities p {
+  width: 70%;
+  display: block;
+  margin-left: 40px;
+  color: #fff;
+  background-color: #333333;
+  margin-top: 0px;
+}
+
+.citylist {
+
+}
+
+.buttons {
+  width: 100px;
+  text-align: center;
+  color: #ed9365;
+  border-color: #ed9365;
+  border-style: solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding: 2px 2px;
+}
+
+.listings {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  background-color: #dddddd;
+
+}
+.listings-column {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  border: black solid 1px;
+  background-color: #fff;
+  margin: 5% 15%;
+  position: relative;
+}
+
+.price p {
+  position: absolute;
+  color: #fff;
+  background-color: rgba(51, 51, 51, .70);
+  text-align: center;
+  margin-top: -50px;
+  height: 40px;
+  width: 100px;
+}
+
+.heart-cont i {
+   font-size: 20px;
+   color: white;
+   padding: 15px;
+}
+
+.heart-cont {
+  background-color: red;
+  opacity: .6;
+  height:50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 260px;
+  margin-top: -200px;
+}
+
+.listings-column img {
+  width: 100%;
+}
+.listings p {
+  font-size: medium;
+  padding-top: 10px;
+  padding-left: 12px;
+
+}
+
+.listings-text {
+  display: inline-block;
+  font-size: medium;
+  font-weight:lighter;
+  width: 40%;
+  padding-top: 50px;
+  line-height: 1.5;
+
+}
+
+.listings-text ul {
+  padding-left: 1.2em;
+  list-style-type: circle;
+}
+
+.listings-text h4 {
+  font-weight:normal;
+}
+
+.about {
+  display: inline-block;
+  font-size: medium;
+  width: 30%;
+  padding-left: 10px;
+}
+
+.about ul {
+  list-style: none;
+  padding-left: .1em;
+  line-height: 2;
+}
+
+.bottom-nav {
+  font-size: large;
+  background-color: #333;
+  font-weight: lighter;
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+}
+
+.social {
+  background-color: #333;
+  padding-top: 10px;
+  margin-top: -5px;*/
+  *width: 100%;
+}
+
+.social-pics {
+  padding-left: 675px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.helper {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  position: fixed;
+  bottom: 10px;
+  left: 135px;
+}
+
+.helper-button {
+
+}
+
+.helper-box {
+  width: 25%;
+  background-color: #B0E6E2;
+  border-style: solid;
+  border-color: #29BBAF;
+  border-bottom: none;
+  margin-bottom: -18px;
+}
+
+.helper-box p {
+  padding-bottom: 14px;
+  padding-left: 10px;
+  font-weight: normal;
+}
+
+.arrow i {
+  color: #fff;
+  background-color: #29BBAF;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 312px;
+}
+.tiffany {
+  width: 25%;
+  height: 5%;
+  background-color: #fff;
+  border-style: solid;
+  border-color: #29BBAF;
+  border-top: none;
+}
+
+.tiffany img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thin;
+  margin-left: 4px;
+  margin-top: 8px;
+}
+
+.tiffany p {
+  font-size: 16px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 70px;
+}
+
+.tiffany p span {
+  color: #F55E05;
+  font-weight: bold;
+}
